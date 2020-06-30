@@ -76,7 +76,7 @@ stages
 		{
 
 
-			bat "docker run -d -p 8081:8080 rahul/random-image"
+			bat "docker run -d -container -p 8081:8080 rahul/random-image"
 		}
 	}	
 	
